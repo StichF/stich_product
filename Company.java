@@ -1,9 +1,21 @@
 public class Company
 {
 	private List<Product> products;
+	private String name
 	
-	public Company()
+	public Company(String name)
 	{
 		products = new ArrayList<>();
+		setName("IBM");
+	}
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	public String getName()
+	{
+		return name;
 	}
 }
