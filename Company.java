@@ -5,7 +5,7 @@ public class Company
 	
 	public Company(String name)
 	{
-		products = new ArrayList<>();
+		products = new LinkedList<>();
 		setName("IBM");
 	}
 	
