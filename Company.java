@@ -1,7 +1,8 @@
 public class Company
 {
+
 	private List<Product> products;
-	private String name
+	private String name;
 	
 	public Company(String name)
 	{
